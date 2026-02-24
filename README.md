@@ -16,7 +16,19 @@ The project includes:
 - Streamlit web app for manual and CSV-based inference,
 - LaTeX final report.
 
+## Repository Structure
 
+```text
+GoogleAG/
+├── mlcyber.ipynb                    # Main notebook (EDA, feature eng, modeling, evaluation)
+├── app.py                           # Streamlit deployment app
+├── requirements.txt                 # Python dependencies
+├── project_report.tex               # Final LaTeX report (5–10 pages)
+├── reconstructed_commit_plan.txt    # Reconstructed timeline commit helper
+├── train_model.py / train_hybrid.py / train_legendary.py
+├── check_*.py, inspect_*.py         # Analysis and diagnostics helpers
+└── *.csv / *.txt                    # EDA exports and metric artifacts
+```
 
 ## Environment Setup
 
