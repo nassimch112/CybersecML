@@ -103,7 +103,7 @@ The Streamlit app supports:
 - `mlcyber.ipynb` (main technical notebook)
 - `app.py` (deployed interface)
 - model `.pkl` bundle (generated during notebook workflow)
-- `project_report.tex` (submission report)
+- `project_report.pdf` (submission report)
 - `README.md` (this file)
 
 ## Notes
