@@ -1,4 +1,4 @@
-# Cybersecurity Attack Detection (GoogleAG)
+# Cybersecurity Attack Detection
 
 Project 1 deliverable for cybersecurity traffic classification using Python machine learning, with an end-to-end workflow from EDA to deployment.
 
