@@ -19,15 +19,13 @@ The project includes:
 ## Repository Structure
 
 ```text
-GoogleAG/
+CyberSecML/
 ├── mlcyber.ipynb                    # Main notebook (EDA, feature eng, modeling, evaluation)
 ├── app.py                           # Streamlit deployment app
 ├── requirements.txt                 # Python dependencies
-├── project_report.tex               # Final LaTeX report (5–10 pages)
-├── reconstructed_commit_plan.txt    # Reconstructed timeline commit helper
-├── train_model.py / train_hybrid.py / train_legendary.py
-├── check_*.py, inspect_*.py         # Analysis and diagnostics helpers
-└── *.csv / *.txt                    # EDA exports and metric artifacts
+├── project_report.pdf               # Final LaTeX report (5–10 pages)
+├── cyber_attack_model.pkl           # Exported trained model
+└── README.md                        # README file
 ```
 
 ## Environment Setup
@@ -85,7 +83,7 @@ pip install -r requirements.txt
 - When compared against original mapped labels, scores were much lower and close across models, indicating limited alignment between generated and original labeling semantics.
 - This comparison is documented in:
    - notebook analysis,
-   - report tables in `project_report.tex`,
+   - report table in `project_report.pdf`,
    - app-level comparison panels.
 
 ## Deployment Overview
