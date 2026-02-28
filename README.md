@@ -105,8 +105,3 @@ The Streamlit app supports:
 - model `.pkl` bundle (generated during notebook workflow)
 - `project_report.pdf` (submission report)
 - `README.md` (this file)
-
-## Notes
-
-- This dataset is synthetic; interpretation focuses on pipeline quality and comparative behavior.
-- For final submission, compile `project_report.tex` and replace placeholder figures with exported notebook/app screenshots.
